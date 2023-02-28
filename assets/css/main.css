@@ -1,0 +1,39 @@
+.my-form {
+    border: 2px solid;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.my-form input {
+    display: block;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-style: italic;
+    width: 100%;
+}
+
+.my-form label {
+    text-transform: capitalize;
+}
+
+/* attribute selector */
+[type="submit"] {
+    width: 100px !important;
+    margin: 0 auto;
+    background-color: red;
+    border: none;
+    height: 30px;
+}
+
+[type="email"] {
+    background-color: red;
+}
+
+.my-form[type="password"],
+.myform[type="submit"] {
+    display: block;
+;
+
+}
